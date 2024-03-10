@@ -2,6 +2,8 @@ const textinput=document.getElementById('textinput')
 const vowelCount=document.getElementById('vowelCount')
 const consoCount=document.getElementById('consoCount')
 const total=document.getElementById('total')
+const totalspace=document.getElementById('totalspace')
+
 // console.log(textinput,vowelCount,consoCount)
 const vowels=['A','E','I','O','U','a','e','i','o','u']
 const constn=['B','C','D','F','G','H','J','K','L','M','N','P','Q','R','S','T','V','W','X','Y','Z','b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
@@ -33,6 +35,9 @@ textinput.addEventListener('input',function(event)
             sum2++;
         }
     }
+ const mystring=inputV
+  const noOfspace=mystring.match(/ /g).length
+totalspace.innerText=noOfspace 
     vowelCount.innerText=sum1
     consoCount.innerText=sum2
     total.innerText=sum1+sum2
