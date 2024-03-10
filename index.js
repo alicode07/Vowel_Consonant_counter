@@ -19,7 +19,7 @@ textinput.addEventListener('input',function(event)
     console.log(inputV.length)
      if(inputV.length>=50)
     {
-        alert(`Limit Exceed of Text:${inputV.length}/50`)
+        alert(`Limit Exceed of Text:('${inputV.length}/50')`)
         location.reload();
     }
 
@@ -51,7 +51,7 @@ totalspace.innerText=noOfspace
     {
         if(number.includes(char))
         {
-            alert(`😁 Hii buddy this ${inputV} character is Number `)
+            alert(`😁 Hii buddy this ('${inputV}') character is Number `)
              location.reload();
              
         }
@@ -62,7 +62,7 @@ totalspace.innerText=noOfspace
     {
         if(speChar.includes(char))
         {
-            alert(`😁Hii visitor this ${inputV} character is specialCharacter`)
+            alert(`😁Hii visitor this ('${inputV}') character is specialCharacter`)
              location.reload();
         }
     };
