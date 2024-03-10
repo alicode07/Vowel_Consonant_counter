@@ -36,7 +36,7 @@ textinput.addEventListener('input',function(event)
         }
     }
  const mystring=inputV
-  const noOfspace=mystring.match(/ /g).length
+  const noOfspace=mystring.split(" ").length-1
 totalspace.innerText=noOfspace 
     vowelCount.innerText=sum1
     consoCount.innerText=sum2
