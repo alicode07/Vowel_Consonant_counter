@@ -48,11 +48,12 @@ body{
     margin-left: 20px;
     margin-top: 5px;
 }
-#para3
+#para3,#para4
 {
     margin-left: 20px;
     margin-top: 5px;
 }
+
 #vowelCount
 {
    font-size: larger;
@@ -71,7 +72,7 @@ body{
     border-radius: 5px;
     margin-left: 9px;
 }
-#total
+#total,#totalspace
 {
     background-color: aqua;
     font-size: larger;
