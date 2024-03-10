@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.container
+{
+    border: 1px solid greenyellow;
+    width: 400px;
+    height: 290px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 black;
+
+}
+#heading
+{
+   background-color: rgb(235, 197, 10);
+   text-align: center;
+   padding: 5px ;
+   color: rgb(112, 0, 231);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+ #textinput
+{
+   
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    border-radius: 5px;
+    
+}
+#para1
+{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#para2
+{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#para3
+{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#vowelCount
+{
+   font-size: larger;
+    background-color: aqua;
+    padding-right:5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-left: 44px;
+}
+#consoCount
+{
+    background-color: aqua;
+    font-size: larger;
+    padding-right:5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-left: 9px;
+}
+#total
+{
+    background-color: aqua;
+    font-size: larger;
+    padding-right:5px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
